@@ -11,4 +11,12 @@ resource_pack:
   zipped: true
 
 
-
+pipeline:
+  -
+    data_pack:
+      load: "../included/*"
+    pipeline: ["airdox_.delete_load_tag_and_packpng"]
+  -
+    resource_pack:
+      load: "../included/*"
+    pipeline: ["airdox_.delete_load_tag_and_packpng"]
