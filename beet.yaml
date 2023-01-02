@@ -1,0 +1,8 @@
+id: template
+name: Template
+version: "0.0.0"
+description: template
+author: author
+
+
+extend: "common.yaml"

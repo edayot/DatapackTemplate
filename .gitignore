@@ -1,4 +1,13 @@
-release generator
-release
-auth.json
+.beet_cache
+.vscode
+out
+__pycache__
+.DS_Store
+pack.mcmeta
+dist/
+docs/
+*.zip
+!releases/included/*.zip
+!releases/included/none/pack.mcmeta
+
 build
