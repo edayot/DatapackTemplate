@@ -15,3 +15,13 @@ python-semantic-release = "^7.32.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+major_on_zero = false
+build_command = "python -m beet -p beet-release.yaml"
+dist_path = "build"
+upload_to_pypi = false
+upload_to_release = true
+version_toml = "pyproject.toml:tool.poetry.version"
+version_pattern = "beet.yaml:(\\d+\\.\\d+\\.\\d+)"
+version_source = "tag"
