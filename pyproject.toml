@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "datapacktemplate"
+version = "0.0.0"
+description = "A datapack template"
+authors = ["edayot <pro.e.dayot@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+smithed-libraries = {git = "https://github.com/edayot/Libraries.git"}
+python-semantic-release = "^7.32.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
