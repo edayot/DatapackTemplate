@@ -4,6 +4,9 @@ version: "0.0.0"
 description: template
 author: author
 
+meta:
+  supports: ["1.20","1.20.1"]
+
 data_pack:
   load: [.]
 resource_pack:
