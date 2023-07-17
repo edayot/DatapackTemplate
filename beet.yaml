@@ -5,7 +5,8 @@ description: template
 author: author
 
 meta:
-  supports: ["1.20","1.20.1"]
+  mc_supports: ["1.20","1.20.1"]
+  mc_supports_dataversion: [3463,3465]
 
 data_pack:
   load: [.]
