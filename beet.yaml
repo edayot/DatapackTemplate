@@ -32,7 +32,7 @@ meta:
         type: "normal"
         prefix: "#itemio"
         
--pipeline:
+pipeline:
   - airdox_.test_load_generator
 
 data_pack:
