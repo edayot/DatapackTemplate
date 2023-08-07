@@ -27,13 +27,14 @@ meta:
         prefix: "#smithed.actionbar"
 
     - id: "airdox_:itemio"
-      version_: "0.5.4"
+      version_: "0.7.1"
       versioning:
         type: "normal"
         prefix: "#itemio"
         
 pipeline:
   - airdox_.test_load_generator
+  - airdox_.cache_dependencies
 
 data_pack:
   load: [.]

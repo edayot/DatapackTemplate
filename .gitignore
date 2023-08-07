@@ -5,9 +5,6 @@ __pycache__
 .DS_Store
 pack.mcmeta
 dist/
-docs/
 *.zip
-!release/included/*.zip
-!release/included/none/pack.mcmeta
 
 build
