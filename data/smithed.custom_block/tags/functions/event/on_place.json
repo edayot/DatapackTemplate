@@ -1,4 +1,5 @@
 {
     "values":[
+        "#template:smithed.custom_block/on_place"
     ]
 }
